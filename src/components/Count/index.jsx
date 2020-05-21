@@ -2,7 +2,7 @@ import React from "react";
 import useCount from "../../hooks/useCount";
 
 function Count() {
-  const [count, setCount] = useCount();
+  const [count, setCount] = useCount(0);
 
   function handleClick() {
     setCount(count + 1);
